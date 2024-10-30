@@ -9,4 +9,4 @@
 - [Live Link](https://saidee-hasan.github.io/organic-store//) 
 
 
-![Alt text](./images/screencapture-saidee-hasan-github-io-organic-store-2024-10-30-08_57_41.png)
+![organic-store](./images/screencapture-saidee-hasan-github-io-organic-store-2024-10-30-08_57_41.png)
