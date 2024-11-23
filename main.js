@@ -19,6 +19,6 @@ const buyNow = (button) => {
           alert("Insufficient balance to make this purchase.");
       }
   } else {
-      console.error("Invalid price or balance value");
+      console.error("Invalid price or balance values");
   }
 };
