@@ -16,7 +16,7 @@ const buyNow = (button) => {
           currentBalanceElement.innerText = newBalance.toFixed(2); // Update the displayed balance
           alert(`You have purchased: ${card.querySelector('.card-title').innerText}\nPrice: $${productPrice.toFixed(2)}`);
       } else {
-          alert("Insufficient balance to make this purchase.");
+          alert("Insufficient balance to make this purchase");
       }
   } else {
       console.error("Invalid price or balance values");
