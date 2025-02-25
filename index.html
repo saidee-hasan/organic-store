@@ -45,6 +45,48 @@
             },
         }
     </script>
+
+    <!-- Add SweetAlert2 CSS and JS -->
+    <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-material-ui@4.0.5/material-ui.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- Add this in the head section -->
+    <style>
+        .swal2-popup {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .swal2-title {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+        }
+
+        .swal2-html-container {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .swal2-confirm {
+            background-color: rgb(106, 151, 57) !important;
+        }
+
+        .swal2-deny {
+            background-color: #dc3545 !important;
+        }
+
+        .swal2-cancel {
+            background-color: #6c757d !important;
+        }
+
+        /* Animation for cart icon */
+        @keyframes cartBounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .animate-bounce {
+            animation: cartBounce 0.5s ease-in-out;
+        }
+    </style>
 </head>
 
 <body class="font-Poppins">
